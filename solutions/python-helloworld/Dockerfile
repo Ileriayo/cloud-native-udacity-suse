@@ -1,7 +1,7 @@
 FROM python:3.8
 LABEL maintainer="Ileriayo Adebiyi"
 
-COPY . /app
+COPY solutions/python-helloworld/ /app
 WORKDIR /app
 RUN pip install -r requirements.txt
 
